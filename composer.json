@@ -1,0 +1,17 @@
+{
+    "name": "leo/crud1",
+    "description": "Ejercicio crud",
+    "type": "project",
+    "license": "Free",
+    "config":{
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\":"clases"
+        }
+    },
+    "require": {
+        "fakerphp/faker":"^1.14"
+    }
+}
